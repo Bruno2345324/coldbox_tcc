@@ -49,6 +49,7 @@ const GoogleChart = () => {
 
   // Define o tamanho do gráfico com base no viewport
   return (
+    <div className='grafico'>
     <div
       id="curve_chart"
       style={{
@@ -57,6 +58,7 @@ const GoogleChart = () => {
         marginLeft: '6vw', // Centraliza o gráfico
       }}
     ></div>
+    </div>
   );
 };
 export default GoogleChart;
