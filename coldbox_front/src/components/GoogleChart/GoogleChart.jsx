@@ -56,6 +56,7 @@ const GoogleChart = () => {
         width: '80vw', // 80% da largura da janela
         height: '70vh', // 70% da altura da janela
         marginLeft: '6vw', // Centraliza o gráfico
+        borderRadius: '10px'
       }}
     ></div>
     </div>
